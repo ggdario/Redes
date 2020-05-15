@@ -11,10 +11,10 @@ if __name__ == '__main__':
     '''
     from methods.graphs import Graph
 
-    vertex = ['a', 'b', 'c', 'd', 'e']
+    vertex = ['a', 'b', 'c', 'd', 'e', 'f']
 
-    edges = ['a-b','a-c', 'a-d', 'a-e', 'b-c', 'b-d', 'b-e', 'c-d', 'c-e', 'd-e']
-    pesos = [5, 50, 80, 90, 70, 60, 50, 8, 20, 10]
+    edges = ['f-e', 'f-a', 'b-d', 'f-d', 'e-a', 'd-a', 'a-c', 'c-b']
+    pesos = [1, 0, 2, 1, 2, 3, 3, 2]
 
     g1 = Graph(vertex, edges)
-    g1.expansion_tree(pesos)
+    g1.maximum_ramification(pesos)
