@@ -6,4 +6,4 @@ Crear el grafo con Graph()
 
 Aplicarle los métodos deseados. Por el momento existen:
 
-*Arbol de expansión (con y sin costes): graph.expansion_tree(), graph.expansion_tree(pesos)
+- **Arbol de expansión (con y sin costes): graph.expansion_tree(), graph.expansion_tree(pesos)**
