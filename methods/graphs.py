@@ -1,6 +1,6 @@
 from methods.exp_tree import exp_tree
 import re
-
+from methods.max_ramification import max_ram
 
 class Graph():
 
@@ -26,6 +26,11 @@ class Graph():
         ed = self.edges
         v = self.vertex
         exp_tree(ed, v, pesos)
+
+    def maximum_ramification(self, weights):
+        ed = self.edges
+        v = self.vertex
+        max_ram(ed, v, weights)
 
 
 
