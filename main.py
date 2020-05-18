@@ -20,4 +20,4 @@ if __name__ == '__main__':
 
     #Graph definition and analysis
     g1 = Graph(vertex, edges)
-    g1.maximum_ramification(pesos)
+    g1.expansion_tree(pesos)
