@@ -1,6 +1,7 @@
 from methods.exp_tree import exp_tree
 import re
 from methods.max_ramification import max_ram
+from methods.find_path import fp
 
 class Graph():
     '''
@@ -56,6 +57,11 @@ class Graph():
         ed = self.edges
         v = self.vertex
         max_ram(ed, v, weights)
+
+    def find_path(self, inicio, final):
+        v = self.vertex
+        e = self. edges
+        fp(v, e, inicio, final)
 
 
 
